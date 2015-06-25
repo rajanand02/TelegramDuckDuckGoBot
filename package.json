@@ -1,0 +1,11 @@
+{
+  "name": "instantAnswerBot",
+  "version": "1.0.0",
+  "description": "Get instant Answers by messaging this bot, it will search duck duck go and send you the reply",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Raj Anand",
+  "license": "GPL v3"
+}
