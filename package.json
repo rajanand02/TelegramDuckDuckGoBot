@@ -7,5 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Raj Anand",
-  "license": "GPL v3"
+  "license": "GPL v3",
+  "dependencies": {
+    "node-ddg-api": "^0.1.4",
+    "telegram-bot": "^0.1.0"
+  }
 }
