@@ -37,7 +37,7 @@ tg.on 'message', (msg) ->
       i = 0
       while i < 5
         topic = relatedTopics[i]
-        if topic.FirstURL and topic.Text
+        if topic and topic.FirstURL and topic.Text
           result_conent = result_conent + '\n ' + topic.FirstURL + '\n ' + topic.Text
         i++
 
