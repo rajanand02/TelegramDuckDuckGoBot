@@ -8,7 +8,6 @@ options = {
         "no_html": "0"
 }
 tg.on 'message', (msg) ->
-  console.log "asdfasdfasdfadsfasdfaaaaaaaaaaaaaaaaaaaaa"
   console.log msg
   return unless msg.text
   msg.text = msg.text.replace('@instantAnswerBot','').replace('!','')
