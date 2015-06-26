@@ -8,7 +8,9 @@ options = {
         "no_html": "0",
 }
 tg.on 'message', (msg) ->
+  console.log msg
   return unless msg.text
+  msg.text = msg.text.replace('@instantAnswerBot','')
   ddg.query(msg.text, options, (err, data)->
     results = data.RelatedTopics
     result_conent = ""
